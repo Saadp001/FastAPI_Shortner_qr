@@ -17,17 +17,16 @@ def generate_short_code(url: str) -> str:
 
 
 
-
 def generate_qr(short_url: str) -> str:
-    # File path
+    # FULL link for redirection
+    full_redirect_url = f"https://fastapi-shortner-qr.onrender.com/{short_url}"
+
     qr_path = f"qr_codes/{short_url}.png"
 
-    # If QR already exists, don't regenerate
     if os.path.exists(qr_path):
         return qr_path
 
-    # Generate QR image
-    img = qrcode.make(short_url)
+    img = qrcode.make(full_redirect_url)
     img.save(qr_path)
 
     return qr_path
