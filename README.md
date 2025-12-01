@@ -11,7 +11,7 @@ Users can shorten long URLs, generate QR codes, download them, and access redire
 | Component               | URL                                                                                                                  |
 | ----------------------- | -------------------------------------------------------------------------------------------------------------------- |
 | 🌐 Frontend (Vercel)    | **[https://short-urlxqr.vercel.app](https://short-urlxqr.vercel.app)**                                               |
-| ⚙️ Backend API (Render) | **[https://fastapi-shortner-qr.onrender.com](https://fastapi-shortner-qr.onrender.com)**                             |
+| ⚙️ Backend API (Render) | **[https://fastapi-shortner-qr.onrender.com](https://fastapi-shortner-qr.onrender.com/docs)**                             |
 | 🖥 Frontend Repo        | [https://github.com/Saadp001/FastAPI_Shortner_qr_frontend](https://github.com/Saadp001/FastAPI_Shortner_qr_frontend) |
 | 🔧 Backend Repo         | [https://github.com/Saadp001/FastAPI_Shortner_qr](https://github.com/Saadp001/FastAPI_Shortner_qr)                   |
 
